@@ -38,7 +38,7 @@
 
 (custom-theme-set-faces
  'goose
- '(default ((t (:inherit nil :stipple nil :background "#CECECE" :foreground "#000000" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal))))
+ '(default ((t (:inherit nil :stipple nil :background "#EEEEEE" :foreground "#000000" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal))))
  '(error ((t (:foreground "#AA0000" :weight bold))))
  '(fixed-pitch ((t nil)))
  '(font-lock-builtin-face ((t (:weight normal))))
@@ -175,14 +175,14 @@
  '(org-table ((t nil)))
  '(org-verbatim ((t (:inherit font-lock-comment-face))))
  ;; outline
- '(outline-1 ((t (:weight bold))))
- '(outline-2 ((t (:weight bold))))
- '(outline-3 ((t (:weight bold))))
- '(outline-4 ((t (:weight bold))))
- '(outline-5 ((t (:weight bold))))
- '(outline-6 ((t (:weight bold))))
- '(outline-7 ((t (:weight bold))))
- '(outline-8 ((t (:weight bold))))
+ '(outline-1 ((t (:foreground "#00008F" :weight normal))))
+ '(outline-2 ((t (:foreground "#00008F" :weight normal))))
+ '(outline-3 ((t (:foreground "#00008F" :weight normal))))
+ '(outline-4 ((t (:foreground "#00008F" :weight normal))))
+ '(outline-5 ((t (:foreground "#00008F" :weight normal))))
+ '(outline-6 ((t (:foreground "#00008F" :weight normal))))
+ '(outline-7 ((t (:foreground "#00008F" :weight normal))))
+ '(outline-8 ((t (:foreground "#00008F" :weight normal))))
  ;; rcirc
  '(rcirc-bright-nick ((t (:inherit font-lock-keyword-face))))
  '(rcirc-dim-nick ((t (:inherit font-lock-comment-face))))

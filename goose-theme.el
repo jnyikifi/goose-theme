@@ -48,7 +48,7 @@
  '(font-lock-function-name-face ((t nil)))
  '(font-lock-keyword-face ((t (:weight bold))))
  '(font-lock-preprocessor-face ((t (:weight bold))))
- '(font-lock-string-face ((t (:slant italic))))
+ '(font-lock-string-face ((t (:foreground "#2C38A4" :slant italic))))
  '(font-lock-type-face ((t nil)))
  '(font-lock-warning-face ((t (:inherit error))))
  '(font-lock-variable-name-face ((t nil)))

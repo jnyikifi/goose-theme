@@ -233,7 +233,11 @@
  ;; window-divider
  '(window-divider ((t (:foreground "#A0A0A0"))))
  '(window-divider-first-pixel ((t (:inherit window-divider))))
- '(window-divider-last-pixel ((t (:inherit window-divider)))))
+ '(window-divider-last-pixel ((t (:inherit window-divider))))
+ ;; sh-mode
+ '(sh-heredoc ((t (:foreground "#2C38A4" :weight normal))))
+ '(sh-quoted-exec ((t (:foreground "#2C38A4" :weight normal))))
+ )
 
 ;; Add theme directory to `custom-theme-load-path'
 ;;;###autoload

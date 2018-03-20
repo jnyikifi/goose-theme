@@ -158,7 +158,8 @@
  '(mu4e-header-highlight-face ((t (:background "#B0B0B0"))))
  '(mu4e-header-key-face ((t (:weight bold))))
  ;; org
- '(org-block ((t (:inherit org-block-begin-line))))
+ '(org-block-begin-line ((t (:inherit outline-1))))
+ '(org-block ((t (:inherit font-lock-comment-face))))
  '(org-block-end-line ((t (:inherit org-block-begin-line))) t)
  '(org-document-info ((t (:inherit org-meta-line))))
  '(org-document-info-keyword ((t (:inherit org-meta-line))))
